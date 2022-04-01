@@ -5,15 +5,15 @@
 
 Reservation of hotel rooms system contains following features:
 
-                         1 Booking
-
-			 2 Rooms Info
-
-			 3 Room Service(Menu Card)
-
-			 4 Payment
-
-			 5 Record rеquеstеd, it will not show up on thе list.
+ 1. Booking
+ 
+ 2. Rooms Info
+ 
+ 3. Room Service(Menu Card)
+ 
+ 4. Payment
+ 
+ 5. Record rеquеstеd, it will not show up on thе list.
 
 ## Folder structure ##
 | Folder | Description|
