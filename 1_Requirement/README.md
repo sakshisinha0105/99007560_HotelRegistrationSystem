@@ -1,9 +1,10 @@
 ##  5W's & 1H
+![5w1h](https://user-images.githubusercontent.com/98824269/161337925-21dd2ce0-9545-4be9-8ed6-cc92758e9c9a.png)
 
 
 
 ##  SWOT Ananlysis
-
+![swot](https://user-images.githubusercontent.com/98824269/161337958-8cfb01b4-67f2-42b8-b20b-97ea2ae55f41.png)
 
 #  Requirements
 
