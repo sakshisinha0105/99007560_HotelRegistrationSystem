@@ -34,6 +34,10 @@ Reservation of hotel rooms system contains following features:
 ##  SWOT Ananlysis
 ![swot](https://user-images.githubusercontent.com/98824269/161337958-8cfb01b4-67f2-42b8-b20b-97ea2ae55f41.png)
 
+## FLOW DIAGRAM
+![flow diagram](https://user-images.githubusercontent.com/98824269/161343280-6840f883-3a85-4c1e-94a1-8db47b003c79.png)
+
+
 #  Requirements
 
 ## High Level Requirements
