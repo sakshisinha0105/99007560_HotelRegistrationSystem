@@ -13,7 +13,7 @@ Reservation of hotel rooms system contains following features:
  
  4. Payment
  
- 5. Record rеquеstеd, it will not show up on thе list.
+ 5. Record 
 
 ## Folder structure ##
 | Folder | Description|
