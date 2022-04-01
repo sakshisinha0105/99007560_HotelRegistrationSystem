@@ -11,10 +11,11 @@
 ## High Level Requirements
 | Id          |  High Level Requirements  |    status  |
 | :--        | :--          |   :--     |
-| HLR1        | The system should be able to add new billing     | Implemented |
-| HLR2        | The system should be able to modify records |  Implemented|
-| HLR3        | The system should be able to refund after cancellation | Implemented |
-| HLR4        | The system should have а cаlеndаr thаt kееps trаck of bookings | Implemented |
+| HLR1        | The system should be able to add new booking    | Implemented |
+| HLR2        | The system should be able to add customers info |  Implemented|
+| HLR3        | The system should be able to provide menu card | Implemented |
+| HLR4        | The system should have а payment option | Implemented |
+| HLR5        | The system should have а record checking option | Implemented |
 
 ## Low Level Requirements
 | Id          | Low Level Requirements for HLR1   |    status  |
