@@ -16,7 +16,7 @@
 | --- | --- |
 |MAIN README.md | Introduction about the project |
 |  1_Requirements | Description,Reaserch,5W's and 1H,SWOT analysis,High and Low level requirements,Applications |
-|  2_Design   |  Block diagram and explanation and Flow chart.|
+|  2_Design   |   Flow charts|
 |  3_Implementation | Code of the project | 
 | 4_TestplanAndOutput | Test plans and analysis |
 | 5_Report | Overall explanation of the project in a specified way |
