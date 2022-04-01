@@ -5,7 +5,7 @@
 
 Reservation of hotel rooms system contains following features:
 
-    1 Booking
+                         1 Booking
 
 			 2 Rooms Info
 
