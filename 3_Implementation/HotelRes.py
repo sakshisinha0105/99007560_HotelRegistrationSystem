@@ -2,6 +2,8 @@ import random
 import datetime
 
 # Global List
+import sys
+
 name = []
 phno = []
 add = []
@@ -38,7 +40,7 @@ def Home():
 
     elif ch == 2:
         print(" ")
-        Rooms_Info()
+        roomsinfo()
 
     elif ch == 3:
         print(" ")
@@ -46,11 +48,11 @@ def Home():
 
     elif ch == 4:
         print(" ")
-        Payment()
+        payment()
 
     elif ch == 5:
         print(" ")
-        Record()
+        record()
 
     else:
         exit()
@@ -61,7 +63,7 @@ def Home():
 def date(c):
     if c[2] <= 2022:
 
-        if c[1] != 0 and c[1] <= 12 and c[1] >= 4:
+        if c[1] != 0 and 12 >= c[1] >= 4:
 
             if c[1] == 2 and c[0] != 0 and c[0] <= 28:
 
@@ -281,7 +283,7 @@ def Booking():
 
 
 # ROOMS INFO
-def Rooms_Info():
+def roomsinfo():
     print("         ------ HOTEL ROOMS INFO ------")
     print("")
     print("STANDARD NON-AC")
@@ -363,7 +365,7 @@ def restaurant():
             print(" 25 Aloo Matar............. 140.00      46 Butter Scotch........... 60.00")
             print("Press 0 -to end ")
             ch = 1
-            while (ch != 0):
+            while ch != 0:
 
                 ch = int(input(" -> "))
 
@@ -372,31 +374,31 @@ def restaurant():
                 if ch == 1 or ch == 31 or ch == 32:
                     rs = 20
                     r = r + rs
-                elif ch <= 4 and ch >= 2:
+                elif 4 >= ch >= 2:
                     rs = 25
                     r = r + rs
-                elif ch <= 6 and ch >= 5:
+                elif 6 >= ch >= 5:
                     rs = 30
                     r = r + rs
-                elif ch <= 8 and ch >= 7:
+                elif 8 >= ch >= 7:
                     rs = 50
                     r = r + rs
-                elif ch <= 10 and ch >= 9:
+                elif 10 >= ch >= 9:
                     rs = 70
                     r = r + rs
-                elif (ch <= 17 and ch >= 11) or ch == 35 or ch == 36 or ch == 38:
+                elif (17 >= ch >= 11) or ch == 35 or ch == 36 or ch == 38:
                     rs = 110
                     r = r + rs
-                elif ch <= 19 and ch >= 18:
+                elif 19 >= ch >= 18:
                     rs = 120
                     r = r + rs
-                elif (ch <= 26 and ch >= 20) or ch == 42:
+                elif (26 >= ch >= 20) or ch == 42:
                     rs = 140
                     r = r + rs
-                elif ch <= 28 and ch >= 27:
+                elif 28 >= ch >= 27:
                     rs = 150
                     r = r + rs
-                elif ch <= 30 and ch >= 29:
+                elif 30 >= ch >= 29:
                     rs = 15
                     r = r + rs
                 elif ch == 33 or ch == 34:
@@ -405,10 +407,10 @@ def restaurant():
                 elif ch == 37:
                     rs = 100
                     r = r + rs
-                elif ch <= 41 and ch >= 39:
+                elif 41 >= ch >= 39:
                     rs = 130
                     r = r + rs
-                elif ch <= 46 and ch >= 43:
+                elif 46 >= ch >= 43:
                     rs = 60
                     r = r + rs
                 elif ch == 0:
@@ -433,7 +435,7 @@ def restaurant():
 
 
 # PAYMENT FUNCTION
-def Payment():
+def payment():
     ph = str(input("Phone Number: "))
     global i
     f = 0
@@ -502,13 +504,13 @@ def Payment():
     if n == 0:
         Home()
     else:
-        exit()
+        sys.exit()
 
 
 # RECORD FUNCTION
-def Record():
+def record():
     # checks if any record exists or not
-    if phno != []:
+    if phno:
         print("        *** HOTEL RECORD ***\n")
         print("| Name        | Phone No.    | Address       | Check-In  | Check-Out     | Room Type     | Price      |")
         print(
@@ -528,7 +530,7 @@ def Record():
         Home()
 
     else:
-        exit()
+        sys.exit()
 
 
 # Driver Code
